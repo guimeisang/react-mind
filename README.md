@@ -5,7 +5,7 @@ react-mind is a JavaScript library for building mind, not only in react, also in
 
 * **what:** react-mind only for building mind for react user
 
-## 如何用
+## 用法
 
 先引入npm包 ：    
 
