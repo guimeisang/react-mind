@@ -5,6 +5,17 @@ react-mind is a JavaScript library for building mind, not only in react, also in
 
 * **what:** react-mind only for building mind for react user
 
+## 思路
+
+整体思路：
+1.计算节点位置
+2.绘画节点
+3.绘画树枝
+
+节点位置计算最重要，一定是逆向思维，先确定子节点的位置，拿到所有的子节点的位置之后，把父节点的位置确定在子节点们框的高度中心位置，从而确定父节点的y坐标，以此类推，确定好所有的节点位置
+
+其他的只是交互细节而已
+
 ## 用法
 
 先引入npm包 ：    
